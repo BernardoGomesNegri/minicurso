@@ -1,0 +1,33 @@
+:root {
+  --color-white: white;
+  --color-blue: #00a9f2;
+  --color-brown-800: #614d04;
+  --color-yellow: #ffc800;
+}
+body {
+  background: var(--color-blue);
+}
+
+.conteudo h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  color: var(--color-white);
+}
+
+.conteudo h3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  color: var(--color-white);
+}
+
+.conteudo button {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: var(--color-brown-800);
+  padding: 15px 40px;
+  border-radius: 150px;
+  background-color: var(--color-yellow);
+}
